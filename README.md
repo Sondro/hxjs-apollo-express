@@ -1,9 +1,7 @@
 # hxjs-apollo-express
 
 # tested npm dependencies
-- graphql ^0.10.3
-- graphql-server-express ^0.9.0
-- graphql-tools ^1.0.0
+- apollo-server-express 1.3.0
 
 # usage
 ```haxe
