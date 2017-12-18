@@ -2,6 +2,7 @@ package apollo;
 
 import js.npm.express.Request;
 import js.npm.express.Response;
+import js.Promise;
 
 typedef GraphQLOptions = {
     schema: Dynamic,//GraphQLSchema;
@@ -18,7 +19,7 @@ typedef GraphQLOptions = {
     // cacheControl?: boolean;
 }
 
-typedef ExpressGraphQLOptionsFunction = Request -> Response -> GraphQLOptions;//, Promise<GraphQLOptions>>;
+typedef ExpressGraphQLOptionsFunction = Request -> Response -> Promise<GraphQLOptions>;
 
 typedef ExpressHandler = Request -> Response -> Dynamic -> Void;
 
