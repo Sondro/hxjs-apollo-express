@@ -1,5 +1,5 @@
 {
-	"name": "graphql-express-hxe",
-	"url": "https://github.com/psmtec/graphql-express-hxe",
-	"license": "MIT"
+	"name": "hxjs-apollo-express",
+	"url": "https://github.com/psmtec/hxjs-apollo-express",
+	"license": "zlib"
 }
