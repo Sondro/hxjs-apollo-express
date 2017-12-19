@@ -39,7 +39,7 @@ typedef GraphiQLData = {
 
 // TODO (DK) use apollo-server-express?
 @:jsRequire('apollo-server-express')
-extern class Express {
+extern class ApolloServerExpress {
     // @:overload(function( opts: ExpressGraphQLOptionsFunction ) : Dynamic {})
     public static function graphqlExpress( opts: ExpressGraphQLOptionsFunction ) : ExpressHandler;
 
