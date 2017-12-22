@@ -4,21 +4,6 @@ import js.npm.express.Request;
 import js.npm.express.Response;
 import js.Promise;
 
-typedef GraphQLOptions = {
-    schema: Dynamic,//GraphQLSchema;
-    // formatError?: Function;
-    ?rootValue: Any,
-    ?context: Any,
-    // logFunction?: LogFunction;
-    // formatParams?: Function;
-    // validationRules?: Array<(context: ValidationContext) => any>;
-    // formatResponse?: Function;
-    // fieldResolver?: GraphQLFieldResolver<any, any>;
-    // debug?: boolean;
-    // tracing?: boolean;
-    // cacheControl?: boolean;
-}
-
 typedef ExpressGraphQLOptionsFunction = Request -> Response -> Promise<GraphQLOptions>;
 
 typedef ExpressHandler = Request -> Response -> Dynamic -> Void;
